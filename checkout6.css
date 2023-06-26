@@ -1,0 +1,349 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*----------------------------nav----------------------*/
+.cotch .cf{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.cotch .cf .search{
+    display: flex;
+    position: relative;
+    margin-left: 60px;
+}
+.cotch .cf .search input{
+    width: 200px;
+    height: 40px;
+    
+    
+    padding-left: 33px;
+    
+    border: none;
+    outline: none;
+    
+    border-radius: 10px;
+
+}
+.cotch .cf .search .fa-magnifying-glass{
+    position: absolute;
+    width: 200px;
+    margin-top: 13px;
+    margin-left: 5%;
+    color: gray;
+}
+                 /*------------------*/
+.cotch .cf .name{
+    border: 2PX solid gray ;
+    padding: 10px;
+    margin-right: 130px;
+    color: rgb(32, 32, 32);
+}                 
+                  /*-------------------*/
+.cotch .cf .icon{
+    margin-right: 50px;
+    color: gray;
+    margin-top: 10px;
+}
+.cotch .cf .icon i{
+    margin-right: 15px;
+
+}
+.cotch .cf .icon i:hover{
+    color: rgb(62, 61, 61);
+}
+             /*----------------------------------*/
+hr{
+    color: rgba(243, 240, 240, 0.715);
+}
+              /*-------------------*/
+.cotch .cb{
+    display: flex;
+    justify-content: center;
+    color: rgb(15, 15, 15);
+} 
+.cotch .cb a{
+    text-decoration: none;
+    color: black;
+ }  
+.cotch .cb p{
+    margin-right: 30px;
+}            
+.cotch .cb p:hover{
+    color: rgb(93, 9, 172);
+}
+.cotch .cb .fa-angle-down{
+    color: rgb(15, 15, 15);
+    font-size: 10px;
+}
+.cotch .cb .par{
+    color:rgb(93, 9, 172) ;
+}
+/*---------------end-nave---------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*---------------section{nav bar}---------------------------------------*/
+.navbar .navebarall{
+    height: 106;
+    padding: 20px;
+    
+    width: 100%;
+    background-color: rgba(176, 193, 182, 0.263);
+}
+.navbar .navebarall div{
+    display: flex;
+    
+}
+.navbar .navebarall div .navh3{
+    color:rgb(93, 9, 172) ;
+    margin-right: 5px;
+}
+/*------------end---section{nav bar}---------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*------------start-- section-cf-1----------------------------------*/
+
+.sectioncf .divcf input{
+    width: 1150px;
+    height: 50px;
+    margin-left: 60px;
+    outline: none;
+    margin-right: 50px;
+    
+}
+.sectioncf  .all{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.sectioncf  .all .side .sorry{
+    border: 1px solid gray;
+    width: 555px;
+    height: 1000px;
+    border-radius: 3px;
+
+}
+.sectioncf  .all .side .sorry .war{
+    margin-left:   60px;
+    margin-right:  60px;
+    margin-top:    40px;
+    margin-bottom: 70px;
+}
+.sectioncf  .all .side .sorry .lleft select{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.sectioncf  .all .side .sorry .lleft .first{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+.sectioncf  .all .side .sorry .lleft .first .h32{
+    margin-right:120px ;
+}
+.sectioncf  .all .side .sorry .lleft .put1{
+    width: 207px;
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+
+}
+.sorry .lleft h3{
+    margin-top: 20px;
+     margin-bottom: 5px;
+}
+.sectioncf  .all .side .sorry .lleft .put2{
+    margin-right: 15px;
+    
+}
+.sectioncf  .all .side .sorry .lleft .select{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+.sectioncf  .all .side .sorry .cssc{
+    padding-bottom: 100px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    
+}
+/*-------------------------------------------------------*/
+/*----------------------right--------------------------------*/
+.sectioncf  .all .side .merci{
+    border: 1px solid gray;
+    width: 555px;
+    height: 200px;
+    border-radius: 3px;
+    margin-bottom: 40px;
+}
+.sectioncf  .all .side .merci .rright{
+    margin-left: 40px;
+    margin-top: 45px;
+    margin-right: 60px;
+}
+/*------------*/
+.sectioncf  .all .side .merci .rright .emailcom input{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+   
+    
+   }
+   .sectioncf  .all .side .merci .rright .emailcom{
+     position: relative;
+   }
+   .sectioncf  .all .side .merci .rright .emailcom button{
+    position: absolute;
+    width: 90px;
+ height: 50px;
+ border-radius: 5px;
+ left: 384px;
+ top: 30px;
+
+color: white;
+background-color: rgb(98, 28, 163);
+border: rgb(98, 28, 163);
+
+}
+/*-------------------------------------*/
+.sectioncf  .all .side .rewq{
+    border: 1px solid gray;
+    width: 555px;
+    height: 718px;
+    border-radius: 3px;
+    margin-top: 15px;
+
+    
+
+}
+.sectioncf  .all .side .rewq .dsa {
+ margin-left:   60px;
+margin-right:  60px;
+margin-top:    40px;
+margin-bottom: 70px;
+}
+.sectioncf  .all .side .rewq .dsa div{
+    display: flex;
+    justify-content: space-between;
+}
+.sectioncf  .all .side .rewq .dsa  hr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sectioncf  .all .side .rewq .dsa input{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+.sectioncf  .all .side .rewq .dsa button{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(98, 28, 163);
+    color: rgb(232, 226, 226);
+    border: 2px solid rgb(98, 28, 163);
+    box-shadow: 0 0 5px 1px black;
+
+}
+.sectioncf  .all .side .rewq .dsa button:hover{
+    transform: translate(-1px,-6px);
+    transition: all 0.5s ease;
+    background-color: black;
+    color: goldenrod;
+    border: 2px solid goldenrod;
+    
+}
+    /*----------------------------end ------------------------------------------*/
+    /*------------------------------------------------------------------------*/
+    /*------------------------------------------------------------------------*/
+/*---------------start---section-mahmoud-7-----هيتكرر--------------------------------*/
+   .sectionmahmoud     .divmahmoud .divul {
+    display: flex;
+    justify-content: space-around;
+    
+   }
+   .sectionmahmoud     .divmahmoud .divul ul{
+    list-style-type: none;
+    margin-right: 60px;
+
+    
+   }
+   .sectionmahmoud     .divmahmoud{
+    display: flex;
+    justify-content: space-around;
+   }
+   .sectionmahmoud     .divmahmoud .ramy ul li{
+    margin-top: 10px;
+    
+   }
+   .sectionmahmoud     .divmahmoud .ramy ul{
+    color: rgb(87, 86, 86);
+   }
+   .divmahmoud  .sapry2 ul{
+    list-style-type: none;
+   }
+   .divmahmoud  .sapry2 .lilili{
+    color:rgb(110, 59, 158) ;
+
+   }
+   .divmahmoud  .sapry3 ul{
+    list-style-type: none;
+
+   }
+   .divmahmoud  .sapry3 ul i{
+    color: rgb(110, 59, 158);
+    margin-right: 10px;
+    
+   }
+   .divmahmoud  .sapry3 .emailcom input{
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+   
+    
+   }
+   .divmahmoud  .sapry3 .emailcom{
+     position: relative;
+   }
+   .divmahmoud  .sapry3 .emailcom button{
+    position: absolute;
+    width: 70px;
+ height: 40px;
+ border-radius: 5px;
+ left: 180px;
+ top: 10px;
+
+color: white;
+background-color: rgb(98, 28, 163);
+border: rgb(98, 28, 163);
+
+}
+
+
+/*-----------------end---section-mahmoud-7-----هيتكرر----------------------------------*/
+/*----------------------------------------------------------*/
+/*------------------أخر حاجه تحت خالص----------------------------------------*/
+.section-bottom .your-name{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.section-bottom .your-name div .pock{
+    margin-left: 5px;
+    color: rgb(10, 10, 10);
+    font-weight: bolder;
+}

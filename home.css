@@ -1,0 +1,400 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*----------------------------nav----------------------*/
+.cotch .cf{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.cotch .cf .search{
+    display: flex;
+    position: relative;
+    margin-left: 60px;
+}
+.cotch .cf .search input{
+    width: 200px;
+    height: 40px;
+    
+    
+    padding-left: 33px;
+    
+    border: none;
+    outline: none;
+    
+    border-radius: 10px;
+
+}
+.cotch .cf .search .fa-magnifying-glass{
+    position: absolute;
+    width: 200px;
+    margin-top: 13px;
+    margin-left: 5%;
+    color: gray;
+}
+                 /*------------------*/
+.cotch .cf .name{
+    border: 2PX solid gray ;
+    padding: 10px;
+    margin-right: 130px;
+    color: rgb(32, 32, 32);
+}                 
+                  /*-------------------*/
+.cotch .cf .icon{
+    margin-right: 50px;
+    color: gray;
+    margin-top: 10px;
+}
+.cotch .cf .icon i{
+    margin-right: 15px;
+
+}
+.cotch .cf .icon i:hover{
+    color: rgb(62, 61, 61);
+}
+             /*----------------------------------*/
+hr{
+    color: rgba(243, 240, 240, 0.715);
+}
+              /*-------------------*/
+.cotch .cb{
+    display: flex;
+    justify-content: center;
+    color: rgb(15, 15, 15);
+} 
+.cotch .cb a{
+   text-decoration: none;
+   color: black;
+} 
+.cotch .cb p{
+    margin-right: 30px;
+}            
+.cotch .cb p:hover{
+    color: rgb(93, 9, 172);
+}
+.cotch .cb .fa-angle-down{
+    color: rgb(15, 15, 15);
+    font-size: 10px;
+}
+.cotch .cb .par{
+    color:rgb(93, 9, 172) ;
+}
+/*---------------end-nave---------------------------------------*/
+/*--------------------------starte-section-cf--------------------*/
+
+.sectioncf .didi{
+    
+    background-color: rgb(144, 253, 244);
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sectioncf .didi .ccd1 img{
+    width: 600px;
+    margin-right: 80px;
+}
+
+.sectioncf .didi .ccd2{
+    font-size: 27px;
+}
+.sectioncf .didi .ccd2 p{
+    font-size: 20px;
+    color: rgb(65, 64, 64);
+
+}
+.sectioncf .didi .ccd2 button{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: rgb(98, 28, 163);
+    border: rgb(98, 28, 163);
+}
+.sectioncf .didi .ccd2 button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    box-shadow: 0 0 3px 0px rgb(52, 51, 51);
+}
+/*-------------end---section-cf-1--------------------------------*/
+/*-------------------------------------------------------------------*/
+/*--------------strte--section-cmf-2------------هيتكرر----------------------*/
+.sectioncmf2 .big {
+    display: flex;
+    justify-content: space-around;
+}
+.sectioncmf2 .big .smal{
+    display: flex;
+}
+.sectioncmf2 .big .smal .si i{
+    font-size: 30px;
+    margin-right: 10px;
+    color: rgb(111, 54, 164);
+    
+}
+.sectioncmf2 .big .smal .si .fa-question{
+    background-color: blueviolet;
+   padding: 5px;
+   padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 50%;
+    color: white;
+}
+.sectioncmf2 .big .smal .si .fa-flip-horizontal{
+margin-top: 7px;
+}
+
+.sectioncmf2 .big .smal .si .fa-arrow-rotate-right{
+
+    margin-top: 7px;
+}
+
+.sectioncmf2 .big .smal .sh p{
+    color: rgb(65, 64, 64);
+    margin-top: 5px;
+    
+}
+/*--------------end--section-cmf-2-----------هيتكرر-----------------------*
+/*-------------------------------------------------------------------------*/
+/*---------------start---section-dmf-3--------------------------------------*/
+.sectiondmf .bigdmf{
+    display: flex;
+    justify-content: space-around;
+}
+.sectiondmf .bigdmf .lmf img{
+    width: 350px;
+    height: 450px;
+    
+    
+}
+
+.sectiondmf .bigdmf .lmf img:hover{
+  transform: scale(1.1);
+   transition: all 0.5s ease;
+
+}
+
+
+.sectiondmf .bigdmf .lmf{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    overflow: hidden;
+
+}
+
+.sectiondmf .bigdmf .lmf .ssmm{
+    position: absolute;
+    margin-left: 10px;
+    color: rgb(253, 251, 251);
+     font-weight: bolder;
+     
+}
+.sectiondmf .bigdmf .lmf .ssmm h1{
+    font-size: 30px;
+}
+/*---------------end---section-dmf-3--------------------------------------*/
+/*------------------------------------------------------------------------*/
+/*---------------start---section-cb-4-------------------------------------*/
+
+.sectioncb .divcolor{
+    background-color: rgba(224, 222, 222, 0.507);
+    height: 630px;
+}
+
+.sectioncb .divcolor .hrh1{
+   
+    display: flex;
+    justify-content: center;
+}
+
+.sectioncb .divcolor .border {
+    width: 50px;
+   margin-left: 602px;
+   margin-bottom: 10px;
+   border-radius: 10px;
+    border: 2px solid rgb(173, 69, 176);
+}
+.meddle-side {
+    display: flex;
+    justify-content: center;
+}
+
+.meddle-side .tank{
+    background-color: white;
+    height: 400px;
+    margin-right: 20px;
+}
+.meddle-side .tank .lklk {
+display: flex;
+margin-top: 30px;
+justify-content: center;
+align-items: center;
+text-align: center;
+    
+}
+.meddle-side .tank .lklk h3{
+    color: rgb(110, 59, 158);
+}
+.meddle-side .tank .lklk h5{
+    color: rgb(110, 59, 158);
+}
+.meddle-side .tank .lklk p{
+    color: gray;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+    
+
+
+.meddle-side .tank img{
+    width: 350px;
+    
+}
+/*---------------end---section-cb-4--------------------------------------*/
+/*------------------------------------------------------------------------*/
+/*---------------start---section-gk-5-------------------------------------*/
+
+.sectiongk .biggk .hrh1{
+   
+    display: flex;
+    justify-content: center;
+}
+
+.sectiongk .biggk .border {
+    width: 50px;
+   margin-left: 602px;
+   margin-bottom: 10px;
+   border-radius: 10px;
+    border: 2px solid rgb(173, 69, 176);
+}
+
+.biggk .large .ddiimg img{
+    width: 600px;
+}
+.biggk .large{
+    display: flex;
+    justify-content: space-around;
+}
+.biggk .large .ddhhppbb{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.biggk .large .ddhhppbb .poi .wwec{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.biggk .large .ddhhppbb .poi h1{
+    color: rgb(110, 59, 158);
+
+}
+.biggk .large .ddhhppbb .poi .wwec .ccew{
+    color: rgb(110, 59, 158);
+    margin-left: 3px;
+
+}
+.biggk .large .ddhhppbb .poi p{
+    color: rgb(78, 77, 77);
+}
+
+.biggk .large .ddhhppbb .poi button{
+width: 100px;
+height: 40px;
+border-radius: 5px;
+margin-top: 20px;
+color: white;
+background-color: rgb(98, 28, 163);
+border: rgb(98, 28, 163);
+}
+.biggk .large .ddhhppbb .poi button:hover{
+transform: scale(1.1);
+transition: all 0.5s ease;
+box-shadow: 0 0 3px 0px rgb(52, 51, 51);
+}
+/*---------------end---section-gk-5--------------------------------------*/
+/*------------------------------------------------------------------------*/
+/*---------------start---section-mahmoud-7-----هيتكرر--------------------------------*/
+   .sectionmahmoud     .divmahmoud .divul {
+    display: flex;
+    justify-content: space-around;
+    
+   }
+   .sectionmahmoud     .divmahmoud .divul ul{
+    list-style-type: none;
+    margin-right: 60px;
+
+    
+   }
+   .sectionmahmoud     .divmahmoud{
+    display: flex;
+    justify-content: space-around;
+   }
+   .sectionmahmoud     .divmahmoud .ramy ul li{
+    margin-top: 10px;
+    
+   }
+   .sectionmahmoud     .divmahmoud .ramy ul{
+    color: rgb(87, 86, 86);
+   }
+   .divmahmoud  .sapry2 ul{
+    list-style-type: none;
+   }
+   .divmahmoud  .sapry2 .lilili{
+    color:rgb(110, 59, 158) ;
+
+   }
+   .divmahmoud  .sapry3 ul{
+    list-style-type: none;
+
+   }
+   .divmahmoud  .sapry3 ul i{
+    color: rgb(110, 59, 158);
+    margin-right: 10px;
+    
+   }
+   .divmahmoud  .sapry3 .emailcom input{
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+   
+    
+   }
+   .divmahmoud  .sapry3 .emailcom{
+     position: relative;
+   }
+   .divmahmoud  .sapry3 .emailcom button{
+    position: absolute;
+    width: 70px;
+ height: 40px;
+ border-radius: 5px;
+ left: 180px;
+ top: 10px;
+
+color: white;
+background-color: rgb(98, 28, 163);
+border: rgb(98, 28, 163);
+
+}
+
+
+/*-----------------end---section-mahmoud-7-----هيتكرر----------------------------------*/
+/*----------------------------------------------------------*/
+/*------------------أخر حاجه تحت خالص----------------------------------------*/
+.section-bottom .your-name{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.section-bottom .your-name div .pock{
+    margin-left: 5px;
+    color: rgb(10, 10, 10);
+    font-weight: bolder;
+}

@@ -1,0 +1,436 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*----------------------------nav----------------------*/
+.cotch .cf{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.cotch .cf .search{
+    display: flex;
+    position: relative;
+    margin-left: 60px;
+}
+.cotch .cf .search input{
+    width: 200px;
+    height: 40px;
+    
+    
+    padding-left: 33px;
+    
+    border: none;
+    outline: none;
+    
+    border-radius: 10px;
+
+}
+.cotch .cf .search .fa-magnifying-glass{
+    position: absolute;
+    width: 200px;
+    margin-top: 13px;
+    margin-left: 5%;
+    color: gray;
+}
+                 /*------------------*/
+.cotch .cf .name{
+    border: 2PX solid gray ;
+    padding: 10px;
+    margin-right: 130px;
+    color: rgb(32, 32, 32);
+}                 
+                  /*-------------------*/
+.cotch .cf .icon{
+    margin-right: 50px;
+    color: gray;
+    margin-top: 10px;
+}
+.cotch .cf .icon i{
+    margin-right: 15px;
+
+}
+.cotch .cf .icon i:hover{
+    color: rgb(62, 61, 61);
+}
+             /*----------------------------------*/
+hr{
+    color: rgba(243, 240, 240, 0.715);
+}
+              /*-------------------*/
+.cotch .cb{
+    display: flex;
+    justify-content: center;
+    color: rgb(15, 15, 15);
+}  
+.cotch .cb a{
+    text-decoration: none;
+    color: black;
+ } 
+.cotch .cb p{
+    margin-right: 30px;
+}            
+.cotch .cb p:hover{
+    color: rgb(93, 9, 172);
+}
+.cotch .cb .fa-angle-down{
+    color: rgb(15, 15, 15);
+    font-size: 10px;
+}
+.cotch .cb .par{
+    color:rgb(93, 9, 172) ;
+}
+/*---------------end-nave---------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*---------------section{nav bar}---------------------------------------*/
+.navbar .navebarall{
+    height: 106;
+    padding: 20px;
+    
+    width: 100%;
+    background-color: rgba(176, 193, 182, 0.263);
+}
+.navbar .navebarall div{
+    display: flex;
+    
+}
+.navbar .navebarall div .navh3{
+    color:rgb(93, 9, 172) ;
+    margin-right: 5px;
+}
+/*------------end---section{nav bar}---------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*-----------start---section-cf-right--to--left-1------------------------------*/
+.sectioncf .bigdivcf{
+    display: flex;
+    justify-content: space-between;
+}
+.sectioncf .bigdivcf .left{
+    width: 350px;
+    height: 100%;
+   
+   
+
+}
+.sectioncf .bigdivcf .left .divborder{
+    border: 2px solid rgb(167, 167, 167);
+    margin-left: 70px;
+    height: 160px;
+
+    
+}
+
+ 
+
+.sectioncf .bigdivcf .left .divborder h3{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.sectioncf .bigdivcf .left .divborder .ssdf{
+    margin-top: 15px;
+    margin-inline: 15px;
+}
+.sectioncf .bigdivcf .left .divborder .ssdf .ffd{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.sectioncf .bigdivcf .left .divborder .ssdf .ffd .pcp{
+color: rgb(93, 9, 172) ;
+}
+/*-------------------------------------*/
+.sectioncf .bigdivcf .left .divborder2{
+    border: 2px solid rgb(167, 167, 167);
+    margin-left: 70px;
+    height: 500px;
+  
+
+}
+.sectioncf .bigdivcf .left .divborder2 div{
+    margin-top: 15px;
+    margin-inline: 10px;
+
+}
+.sectioncf .bigdivcf .left .divborder2 .ddr{
+    margin-left: 7px;
+}
+.sectioncf .bigdivcf .left .divborder2 .befor .red::before{
+    content: "  O   ";
+   height: 5px;
+   margin-right: 3px;
+  
+  background-color: red;
+  color: red;
+  font-weight: bold;
+  border-radius: 70%;
+}
+.sectioncf .bigdivcf .left .divborder2 .befor .green::before{
+    content: "  O   ";
+   height: 5px;
+   margin-right: 3px;
+  
+  background-color: green;
+  color: green;
+  font-weight: bold;
+  border-radius: 70%;
+}
+.sectioncf .bigdivcf .left .divborder2 .befor .gold::before{
+    content: "  O   ";
+   height: 5px;
+   margin-right: 3px;
+  
+  background-color: goldenrod;
+  color: goldenrod;
+  font-weight: bold;
+  border-radius: 70%;
+}
+.sectioncf .bigdivcf .left .divborder2 .befor .brown::before{
+    content: "  O   ";
+   height: 5px;
+   margin-right: 3px;
+  
+  background-color: brown;
+  color: brown;
+  font-weight: bold;
+  border-radius: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sectioncf .bigdivcf .right{
+   
+    width: 890px;
+    height: 100vh;
+}
+.meddle-side {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.meddle-side .tank{
+    background-color: white;
+    height: 300px;
+    margin-right: 15px;
+    margin-top: 10px;
+    box-shadow: 0 0 2px 0 gray;
+}
+.meddle-side .tank .lklk {
+display: flex;
+margin-top: 30px;
+
+justify-content: center;
+align-items: center;
+text-align: center;
+    
+}
+.meddle-side .tank .lklk h3{
+    color: rgb(110, 59, 158);
+}
+.meddle-side .tank .lklk h5{
+    color: rgb(110, 59, 158);
+}
+.meddle-side .tank .lklk p{
+    color: gray;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+    
+
+
+.meddle-side .tank img{
+    width: 280px;
+    
+}
+ .right .bbc{
+    display: flex;
+    justify-content: space-between;
+ }
+ .right .bbc1 h1{
+    
+ }
+ .right .bbc .bbc2{
+    margin-right: 15px;
+ }
+ .right .bbc .bbc2 select{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    margin-right: 10px;
+ }
+
+ .right .bbc .bbc2 select:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+   background-color: rgb(165, 162, 162);
+   box-shadow: 0 0 2px 0;
+ }
+ .right .kkm{
+    display: flex;
+    justify-content: center;
+    color: rgb(131, 78, 181);
+    font-size: 15px;
+ }
+ .right .kkm p{
+    margin-left: 10px;
+    border: 1px solid rgb(131, 78, 181);
+    border-radius: 50%;
+    padding: 15px;
+ }
+ .right .kkm .rko{
+    background-color: rgb(131, 78, 181);
+    color: white;
+ }
+ /*-----------------------end--------------------------------------*/
+ /*----------------------------------------------------------------*/
+ .sectioncb .border{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 402px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+     border: 2px solid rgb(173, 69, 176);
+ }
+ .sectioncb .hrh1{
+    display: flex;
+    justify-content: center;
+ }
+
+
+
+ .sectioncb .bigdmf{
+    display: flex;
+    justify-content: space-around;
+}
+.sectioncb .bigdmf .lmf img{
+    width: 350px;
+    height: 450px;
+    
+    
+}
+
+.sectioncb .bigdmf .lmf img:hover{
+  transform: scale(1.1);
+   transition: all 0.5s ease;
+
+}
+
+
+.sectioncb .bigdmf .lmf{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    overflow: hidden;
+
+}
+
+.sectioncb .bigdmf .lmf .ssmm{
+    position: absolute;
+    margin-left: 10px;
+    color: rgb(253, 251, 251);
+     font-weight: bolder;
+     
+}
+.sectioncb .bigdmf .lmf .ssmm h1{
+    font-size: 30px;
+}
+/*---------------------------------------------------------------------*/
+/*------------------------------------------------------------------*/
+/*---------------start---section-mahmoud-7-----هيتكرر--------------------------------*/
+.sectionmahmoud     .divmahmoud .divul {
+    display: flex;
+    justify-content: space-around;
+    
+   }
+   .sectionmahmoud     .divmahmoud .divul ul{
+    list-style-type: none;
+    margin-right: 60px;
+
+    
+   }
+   .sectionmahmoud     .divmahmoud{
+    display: flex;
+    justify-content: space-around;
+   }
+   .sectionmahmoud     .divmahmoud .ramy ul li{
+    margin-top: 10px;
+    
+   }
+   .sectionmahmoud     .divmahmoud .ramy ul{
+    color: rgb(87, 86, 86);
+   }
+   .divmahmoud  .sapry2 ul{
+    list-style-type: none;
+   }
+   .divmahmoud  .sapry2 .lilili{
+    color:rgb(110, 59, 158) ;
+
+   }
+   .divmahmoud  .sapry3 ul{
+    list-style-type: none;
+
+   }
+   .divmahmoud  .sapry3 ul i{
+    color: rgb(110, 59, 158);
+    margin-right: 10px;
+    
+   }
+   .divmahmoud  .sapry3 .emailcom input{
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+   
+    
+   }
+   .divmahmoud  .sapry3 .emailcom{
+     position: relative;
+   }
+   .divmahmoud  .sapry3 .emailcom button{
+    position: absolute;
+    width: 70px;
+ height: 40px;
+ border-radius: 5px;
+ left: 180px;
+ top: 10px;
+
+color: white;
+background-color: rgb(98, 28, 163);
+border: rgb(98, 28, 163);
+
+}
+
+
+/*-----------------end---section-mahmoud-7-----هيتكرر----------------------------------*/
+/*----------------------------------------------------------*/
+/*------------------أخر حاجه تحت خالص----------------------------------------*/
+.section-bottom .your-name{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.section-bottom .your-name div .pock{
+    margin-left: 5px;
+    color: rgb(10, 10, 10);
+    font-weight: bolder;
+}

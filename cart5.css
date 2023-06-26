@@ -1,0 +1,398 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*----------------------------nav----------------------*/
+.cotch .cf{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.cotch .cf .search{
+    display: flex;
+    position: relative;
+    margin-left: 60px;
+}
+.cotch .cf .search input{
+    width: 200px;
+    height: 40px;
+    
+    
+    padding-left: 33px;
+    
+    border: none;
+    outline: none;
+    
+    border-radius: 10px;
+
+}
+.cotch .cf .search .fa-magnifying-glass{
+    position: absolute;
+    width: 200px;
+    margin-top: 13px;
+    margin-left: 5%;
+    color: gray;
+}
+                 /*------------------*/
+.cotch .cf .name{
+    border: 2PX solid gray ;
+    padding: 10px;
+    margin-right: 130px;
+    color: rgb(32, 32, 32);
+}                 
+                  /*-------------------*/
+.cotch .cf .icon{
+    margin-right: 50px;
+    color: gray;
+    margin-top: 10px;
+}
+.cotch .cf .icon i{
+    margin-right: 15px;
+
+}
+.cotch .cf .icon i:hover{
+    color: rgb(62, 61, 61);
+}
+             /*----------------------------------*/
+hr{
+    color: rgba(243, 240, 240, 0.715);
+}
+              /*-------------------*/
+.cotch .cb{
+    display: flex;
+    justify-content: center;
+    color: rgb(15, 15, 15);
+}  
+.cotch .cb a{
+    text-decoration: none;
+    color: black;
+ } 
+.cotch .cb p{
+    margin-right: 30px;
+}            
+.cotch .cb p:hover{
+    color: rgb(93, 9, 172);
+}
+.cotch .cb .fa-angle-down{
+    color: rgb(15, 15, 15);
+    font-size: 10px;
+}
+.cotch .cb .par{
+    color:rgb(93, 9, 172) ;
+}
+/*---------------end-nave---------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*---------------section{nav bar}---------------------------------------*/
+.navbar .navebarall{
+    height: 106;
+    padding: 20px;
+    
+    width: 100%;
+    background-color: rgba(176, 193, 182, 0.263);
+}
+.navbar .navebarall div{
+    display: flex;
+    
+}
+.navbar .navebarall div .navh3{
+    color:rgb(93, 9, 172) ;
+    margin-right: 5px;
+}
+/*------------end---section{nav bar}---------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*------------start-- section-cf-1----------------------------------*/
+.sectioncf .tdtr{
+   
+   
+}
+  
+    .sectioncf .tdtr table, td, th {
+        border: 1px solid rgb(209, 204, 204);
+        border-bottom: none;
+        
+
+      }
+
+    
+
+
+.tdtr  table {
+    text-align: center;
+    align-items: center;
+    width: 1000px;
+    margin-left: 100px;
+  border-collapse: collapse ;
+  
+ 
+}
+.tdtr  table th{
+    width: 150px;
+    height: 50px;
+    
+}
+.tdtr  table .td1{
+    width: 200px;
+    height: 130px;
+}
+.tdtr  table .td2{
+    width: 200px;
+    height: 130px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.tdtr  table .td3{
+    width: 80px;
+    height: 130px;
+
+}
+/*-------------------*/
+.sectioncf .tdtr table .td4 .asd {
+    display: flex;
+    margin-left: 15px;
+    border: 1px solid;
+    margin-right: 25px;
+   
+    
+}
+.sectioncf .tdtr table .td4 .asd button{
+    background-color: white;
+    color:rgb(98, 28, 163)  ;
+    border: 1px solid rgb(98, 28, 163) ;
+    width: 40px;
+    height: 30px;
+    
+    
+}
+.sectioncf .tdtr table .td4 .asd button:hover{
+    background-color: rgb(98, 28, 163);
+    transform: none;
+    color: white;
+}
+.sectioncf .tdtr table .td4 .asd p{
+    margin-inline: 10px;
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(98, 28, 163);
+}
+.sectioncf .tdtr table .td6 .fa-xmark {
+    background-color: rgb(98, 28, 163) ;
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+
+}
+/**********************انتهاء الجدول-----------------------*/
+/*------------------section-dmf --2---------------------------*/
+
+.sectiondmf .bigdmf{
+    display: flex;
+    justify-content: space-between;
+}
+.sectiondmf .bigdmf .left{
+    width: 600px;
+    height: 100%;
+    margin-left: 50px;
+   
+
+}
+.sectiondmf .bigdmf .left .div22 button{
+    
+    margin-bottom: 30px;
+    width: 200px;
+    height: 35px;
+    margin-right: 10px;
+    border: 1px solid rgb(98, 28, 163);
+    box-shadow: 0 0 2px 0 gray;
+    
+    
+}
+.sectiondmf .bigdmf .left .div22 .bbuu{
+    background-color:rgb(98, 28, 163) ;
+    color: white;
+
+
+}
+.sectiondmf .bigdmf .left .div22 .bbuu:hover{
+   
+    transform: translate(0px,-6px)   ;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 5px 0 black;
+   
+    
+}
+.sectiondmf .bigdmf .left .div22 .uubb{
+    background-color: white;
+    color: rgb(98, 28, 163);
+}
+.sectiondmf .bigdmf .left .div22 .uubb:hover{
+    background-color: white;
+    color: rgb(98, 28, 163);
+    transform: translate(0px,-6px)   ;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 5px 0;
+   
+    
+}
+.sectiondmf .bigdmf .left .div11 p{
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.sectiondmf .bigdmf .left .div12 button{
+    background-color:rgb(98, 28, 163) ;
+    color: white;
+
+    margin-bottom: 30px;
+    width: 150px;
+    height: 30px;
+    margin-right: 10px;
+    border: 1px solid rgb(98, 28, 163);
+    box-shadow: 0 0 2px 0 gray;
+    
+    
+}
+.sectiondmf .bigdmf .left .div12 button:hover{
+   
+    transform: translate(0px,-6px)   ;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 5px 0 black;
+   
+    
+}
+.sectiondmf .bigdmf .left .div12 input{
+    width: 255px;
+    height: 30px;
+    outline: none;
+}
+
+
+
+.sectiondmf .bigdmf .right{
+    width: 400px;
+ 
+    margin-right: 50px;
+    margin-left: 400px;
+
+
+}
+.sectiondmf .bigdmf .right h1{
+    display: flex;
+    justify-content: end;
+}
+.sectiondmf .bigdmf .right .div101{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.sectiondmf .bigdmf .right .div102{
+    margin-top: 15;
+    margin-bottom: 30px;
+    display: flex;
+ justify-content: space-between;
+}
+.sectiondmf .bigdmf .right  button{
+    background-color:rgb(98, 28, 163) ;
+    color: white;
+    margin-left: 30px;
+
+    margin-bottom: 30px;
+    width: 250px;
+    height: 50px;
+    margin-right: 10px;
+    border: 1px solid rgb(98, 28, 163);
+    box-shadow: 0 0 2px 0 gray;
+    
+    
+}
+.sectiondmf .bigdmf .right  button:hover{
+    transform: translate(0px,-6px)   ;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 5px 0 black;
+
+
+}
+/*--------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+/*---------------start---section-mahmoud-7-----هيتكرر--------------------------------*/
+.sectionmahmoud     .divmahmoud .divul {
+    display: flex;
+    justify-content: space-around;
+    
+   }
+   .sectionmahmoud     .divmahmoud .divul ul{
+    list-style-type: none;
+    margin-right: 60px;
+
+    
+   }
+   .sectionmahmoud     .divmahmoud{
+    display: flex;
+    justify-content: space-around;
+   }
+   .sectionmahmoud     .divmahmoud .ramy ul li{
+    margin-top: 10px;
+    
+   }
+   .sectionmahmoud     .divmahmoud .ramy ul{
+    color: rgb(87, 86, 86);
+   }
+   .divmahmoud  .sapry2 ul{
+    list-style-type: none;
+   }
+   .divmahmoud  .sapry2 .lilili{
+    color:rgb(110, 59, 158) ;
+
+   }
+   .divmahmoud  .sapry3 ul{
+    list-style-type: none;
+
+   }
+   .divmahmoud  .sapry3 ul i{
+    color: rgb(110, 59, 158);
+    margin-right: 10px;
+    
+   }
+   .divmahmoud  .sapry3 .emailcom input{
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+   
+    
+   }
+   .divmahmoud  .sapry3 .emailcom{
+     position: relative;
+   }
+   .divmahmoud  .sapry3 .emailcom button{
+    position: absolute;
+    width: 70px;
+ height: 40px;
+ border-radius: 5px;
+ left: 180px;
+ top: 10px;
+
+color: white;
+background-color: rgb(98, 28, 163);
+border: rgb(98, 28, 163);
+
+}
+
+
+/*-----------------end---section-mahmoud-7-----هيتكرر----------------------------------*/
+/*----------------------------------------------------------*/
+/*------------------أخر حاجه تحت خالص----------------------------------------*/
+.section-bottom .your-name{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.section-bottom .your-name div .pock{
+    margin-left: 5px;
+    color: rgb(10, 10, 10);
+    font-weight: bolder;
+}
